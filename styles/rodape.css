@@ -28,6 +28,10 @@ hr {
         margin: 1em 0;
     }
 
+    .lista-rodape__link:hover {
+        color: var(--laranja);
+    }
+
     .lista-rodape__link {
         color: var(--cinza);
         text-decoration: none;
@@ -43,5 +47,16 @@ hr {
         color: var(--cinza-claro);
         font-size: 14px;
         margin: 0 0 2em 0;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .lista-rodape{
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1.2em;
+    }
+
+    .rodape {
+        padding: 3em 0;
     }
 }
